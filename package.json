@@ -1,0 +1,24 @@
+{
+  "name": "timatch",
+  "version": "0.0.1",
+  "description": "A timing module with integrated timer, stopwatch and additional funcionalities.",
+  "main": "timatch.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phoerest/timatch.git"
+  },
+  "keywords": [
+    "timer",
+    "stopwatch"
+  ],
+  "author": "Phoerest",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Phoerest/timatch/issues"
+  },
+  "homepage": "https://github.com/Phoerest/timatch#readme"
+}

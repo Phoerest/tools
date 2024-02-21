@@ -1,9 +1,9 @@
 const toMilli = (time) =>
 	new Date().getTime() + (
-		(time.hours * 3600) +
-		(time.minutes * 60) +
-		(time.seconds)
-	) * 1000 + time.milliSeconds
+		((time?.hours || 0) * 3600) +
+		((time?.minutes || 0) * 60) +
+		(time?.seconds || 0)
+	) * 1000 + (time?.milliSeconds || 0)
 
 const toObj = (milliSecond) => {
 	const second = (milliSecond - (milliSecond % 1000)) / 1000,
